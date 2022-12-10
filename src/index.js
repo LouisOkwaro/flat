@@ -15,7 +15,7 @@ resetVotes.addEventListener('click', () => {
     currentAnimal.votes = 0;
     showAnimal(currentAnimal);
 })
-console.log("Louis")
+console.log("Wild")
 function getCharacters() {
     fetch('http://localhost:3000/characters/')
     .then(response => response.json())
