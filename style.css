@@ -1,0 +1,61 @@
+html {
+  font-family:times 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  text-align: center;
+  background-color: rgb(50, 92, 32);
+  color:black;
+  padding: 0.5em;
+}
+
+#character-bar {
+  height: 16vh;
+  background: rgb(8, 160, 122);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 4vh;
+}
+
+#character-bar span {
+  padding: 1%;
+  height: 50%;
+  width: 6vw;
+  display: flex;
+  justify-content: center;
+  font-size: 3vh;
+  align-items: center;
+  border-radius: 2em;
+  border: 1px solid white;
+}
+
+.characterInfo{
+  height: 500px;
+  padding: 30px;
+  font-size: 24px;
+  border: dotted;
+  text-align: center;
+}
+
+input[type="submit"], button {
+  background-color: rgb(49, 109, 179);
+  color: white;
+  font-size: 18px;
+  border-radius: 9px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="text"] {
+  font-size: 3vh;
+}
+
+#image{
+  width: 300px;
+  height: 300px;
+}
